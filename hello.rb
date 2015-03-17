@@ -27,7 +27,7 @@
 
 ##
 # name = "Roy"
-# string = "Hello!\n\tMy name is #{name}.\n\t\tWorkspaces is fun!"
+# string = "Hello!\n\tMy name is #{name}.\n\t\tRuby is fun!"
 # puts string
 # \n = insert new line
 # \t = insert tab
@@ -53,5 +53,27 @@
 ########################
 ##### RUBY METHODS #####
 ########################
+
+##
+# def add
+# 	puts 2 + 2
+# end
+# add
+
+##
+# def add(num1, num2)
+# 	puts num1 + num2
+# end
+# add(8,6)
+# add(32,75)
+
+def add(a, b)
+	puts "Adding #{a} and #{b}:"
+	puts a + b
+end
+
+add(32, 95)
+add(1254, 3891)
+add(4199870, 4578231)
 
 
