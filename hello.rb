@@ -67,13 +67,20 @@
 # add(8,6)
 # add(32,75)
 
-def add(a, b)
+##
+# def add(a, b)
+#	puts "Adding #{a} and #{b}:"
+#	puts a + b
+# end
+# add(32, 95)
+# add(1254, 3891)
+# add(4199870, 4578231)
+
+def add (a, b)
 	puts "Adding #{a} and #{b}:"
-	puts a + b
+	return a + b
 end
 
-add(32, 95)
-add(1254, 3891)
-add(4199870, 4578231)
-
-
+add(2,3) # intentionally omitted puts method for side-by-side comparison
+puts add(5,5)
+puts add(6,2)
